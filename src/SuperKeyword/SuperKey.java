@@ -9,5 +9,7 @@ public class SuperKey  {
 		 c.m1();
 		 c.m2();
 		 c.m3();
+		 
+		 System.out.println(c.b);
 	 }
 }

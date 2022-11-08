@@ -2,8 +2,11 @@ package SuperKeyword;
 
 public class B1 extends A1 {
 	
+	int b = 20;
+	
 	public B1() {
-		
+	
+	super();	
 	System.out.println("B1 Class Constructor");
 	}
 	

@@ -5,20 +5,8 @@ interface A{
 	
 }
 
-interface B{
-	
-	public void fun();
-}
-
-
-
-public class multiple implements A,B {
+public class multiple implements A {
      
-	@Override
-	public void fun() {
-		
-		System.out.println("Interface B");
-	}
 
 	@Override
 	public void show() {
@@ -30,7 +18,7 @@ public class multiple implements A,B {
 		
 		multiple m = new multiple();
 		
-		m.show(); m.fun();
+		m.show(); 
 		
 		
 	} 

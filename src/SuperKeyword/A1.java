@@ -4,6 +4,7 @@ public class A1{
   
 	public A1() {
 		
+		super();
 		System.out.println("A1 Class Constructor");
 	}
 	
