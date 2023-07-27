@@ -7,16 +7,16 @@ import abstraction.interface_demo;
 public class practice {
        
 	public static void main(String[]args) {
-	 
-	   char a = 'a';
-	   
-	   if(a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u') {
-		        
-		             System.out.println("vowel");
-		             
-	   }else {
-		   
-		   System.out.println("consonant");
-	   }
-   }
+	     
+		  char ch = 'a';
+		  
+		  if(ch =='a'|| ch=='e'||ch=='i'||ch=='o'||ch=='u') {
+			  
+			  System.out.println("Vowel");
+			  
+		  }else {
+			  System.out.println("consonant");
+		  }
+		 
+	  } 
 }
