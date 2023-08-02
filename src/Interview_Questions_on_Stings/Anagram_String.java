@@ -10,7 +10,7 @@ public class Anagram_String {
         
 			
 		String s1 = "listen";
-		String s2 = "silentn";
+		String s2 = "silent";
 		
 		char c1 [] = s1.toCharArray();
 		char c2 [] = s2.toCharArray(); 
@@ -29,12 +29,12 @@ public class Anagram_String {
 		
 		if(True = true) {
 		
-			for(int i =0; i<c1.length;i++) {
+			for(int i =0; i<s1.length()-1;i++) {
 			
 			if(c1 [i] == c2[i]) {
 			
 		   System.out.println("Anagram");
-		   
+		   System.exit(0);
 		      
 			}  
 		      } 
