@@ -22,7 +22,34 @@ public class Vowel_or_Consonant {
 			
 			System.out.println("Consonant");
 			
+		 }
+		
+		/*
+		  String st = "rahul";
+		st = st.toLowerCase();
+		int vowel= 0;
+		int nonvowel=0;
+		for(int i=0; i<=st.length()-1; i++)
+		{
+			if (st.charAt(i) == 'a' || st.charAt(i) == 'e'
+	                || st.charAt(i) == 'i'
+	                || st.charAt(i) == 'o'
+	                || st.charAt(i) == 'u')
+			{
+				vowel++;
+			}
+			else
+			{
+				nonvowel++;
+			}
 		}
+		System.out.println(
+	            "Total no of vowels in string are: " + vowel);	
+		System.out.println(
+	            "Total no of Non-vowels in string are: " + nonvowel);
+		 
+		  */
+		
 	}
 
 }

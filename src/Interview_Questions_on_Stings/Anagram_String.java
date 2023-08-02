@@ -10,12 +10,13 @@ public class Anagram_String {
         
 			
 		String s1 = "listen";
-		String s2 = "silent";
+		String s2 = "silentn";
 		
 		char c1 [] = s1.toCharArray();
 		char c2 [] = s2.toCharArray(); 
 		
-		if(c1.length != c2.length) {
+		
+	   if(c1.length != c2.length) {
 			
 			System.out.println("Not Anagram");
 			System.exit(0);
@@ -24,17 +25,29 @@ public class Anagram_String {
 		Arrays.sort(c1);
 		Arrays.sort(c2);
 		
-		for(int i =0; i<c1.length-1;i++) {
+		boolean True = Arrays.equals(c1, c2);
+		
+		if(True = true) {
+		
+			for(int i =0; i<c1.length;i++) {
 			
 			if(c1 [i] == c2[i]) {
 			
 		   System.out.println("Anagram");
-		   System.exit(0);	
-		}
+		   
+		      
+			}  
+		      } 
+	
+		  }else {
+				 System.out.println("not anagram");
+				
+		   }
 		
-      }
-		System.out.println("not Anagram");
-		
+		} 
+	
+     }
+			
 		
 		
 		
@@ -60,5 +73,4 @@ public class Anagram_String {
 	    }else {
 	    	System.out.println("String is not Equals in Length");
 	    }*/
-    }
-}
+  
