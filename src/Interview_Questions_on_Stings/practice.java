@@ -7,7 +7,10 @@ import abstraction.interface_demo;
 
 public class practice {
        
-	public static void main(String[]args) {
+	
+	public static void main(String []args) {
+ 
+     
 		
 	}
-}
+ }	
