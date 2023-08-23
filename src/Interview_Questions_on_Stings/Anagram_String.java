@@ -10,7 +10,7 @@ public class Anagram_String {
         
 			
 		String s1 = "listen";
-		String s2 = "wsilent";
+		String s2 = "silent";
 		
 		char c1 [] = s1.toCharArray();
 		char c2 [] = s2.toCharArray(); 
