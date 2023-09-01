@@ -14,7 +14,7 @@ public class ArmStrong_Number {
 		 orgnum=n;
 		 
 		 while(n>0) {
-			 rem= n%10;;
+			 rem= n%10;
 			 arm=(rem*rem*rem)+arm;
 			 n=n/10;
 		 }

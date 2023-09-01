@@ -6,13 +6,16 @@ import java.util.Scanner;
 public class practice {
       
 	public static void main(String[]args) {
-	 
-		char c = 'a';
+	  
+		int a=0,b=1,c;
+		int L = 5;
 		
-		if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u') {
-			System.out.println("vowel");
-		}else {
-			System.out.println("consonant");
+		for(int i=1; i<=L; i++) {
+		   
+			System.out.print(a);
+			c = a+b;
+			a = b;
+			b = c;
 		}
 	}
  }	
