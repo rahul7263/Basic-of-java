@@ -7,15 +7,13 @@ public class practice {
       
 	public static void main(String[]args) {
 	  
-		int a=0,b=1,c;
-		int L = 5;
-		
-		for(int i=1; i<=L; i++) {
-		   
-			System.out.print(a);
-			c = a+b;
-			a = b;
-			b = c;
+		char ch = 'a';
+		 
+		if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u') {
+			System.out.println("vowel");
+		}else {
+			System.out.println("consoanant");
 		}
+		
 	}
  }	
